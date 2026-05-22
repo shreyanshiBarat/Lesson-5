@@ -1,7 +1,9 @@
-h= "it's hot!"
-c=" it's cold"
 
-if h>c:
-    print(h, ",you should go drink water")
-else:
-    print(c, ", you should go grab a sweatshirt or jacket")
+temperature = float(input("Enter the temperature in Celsius: "))
+
+
+if temperature >= 30:
+    print("It is hot outside.")
+elif temperature <= 29:
+    print("It is cold outside.")
+
